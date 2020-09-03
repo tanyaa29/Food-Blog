@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+
+}
+#logo img{
+    height: 50px;
+    border-radius: 50%;
+}
+#navbar{
+    background-color: brown;
+    padding: 15px 20px;
+    
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    padding: 13px 30px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introsection{
+    padding-bottom: 40px;
+    background: center/cover no-repeat url("/static/img/bg.jpg");
+    opacity: 0.6;
+    align-items: center;
+    color: whitesmoke;
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    font-weight: bolder;
+    justify-content: center;
+    height: 500px;
+    
+}
+#introsection div.small{
+    font-size: 50px;
+}
+#myfoods{
+    height: 2900px;
+    margin: auto;
+    width: 85%;
+    display: block;
+    background: url("/static/img/bg3.jpg");
+    background-size: contain;
+}
+#myfoods h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    color: white;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 20px 20px;
+    height: 500px;
+    background-color: #dfd6d8;
+
+}
+.card h3{
+    text-align: center;
+    margin: 15px 12px;
+    font-size: 30px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    width: 340px;
+    height: 300px;
+    padding: 00 14px;
+    margin: 12px 12px;
+}
+.card-img img{
+    height: inherit;
+    align-items: center;
+    width: inherit;
+}
+.card-content{
+    padding: 10px;
+}
+.card-content p{
+    font-size: 20px;
+    font-weight: 600;
+}
+#container{
+    background: url("/static/img/bg2.jpg");
+    background-size: contain;
+    height: 500px;
+}
+.containerr{
+    height: 500px;
+    position: absolute;
+    left: 17.5%;
+    transform: translateX(-50%,-50%);
+    width: 1000px;
+    padding: 30px;
+    background: #fff ;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    background: url("/static/img/Me.jpeg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle() ;
+    margin: 30px 30px 30px 0 ;
+
+}
+p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 20px;
+    font-size: large;
+}
+#footer{
+    background: black;
+    color: whitesmoke;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #30252a, 0 0 40px #30252a, 0 0 50px #30252a, 0 0 60px #30252a, 0 0 70px#30252a;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2e282b, 0 0 40px #2e282b, 0 0 50px #2e282b, 0 0 60px #2e282b, 0 0 70px #2e282b, 0 0 80px #2e282b;
+    }
+  }
